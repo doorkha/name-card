@@ -1,0 +1,95 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 100%;
+}
+/* Pozicionálás */
+
+
+body {
+  display: flex;
+  background-image:url("assets/body-backgroung.jpg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  color: silver;
+}
+
+.profile-card {
+  width: 480px;
+  max-width: calc(100vw - 10px);
+  background-color: rgba(176, 158, 113, .6);  
+  border-radius: 20px;
+  box-shadow: hsla(0, 0%, 0%, .8) 10px 10px 80px;
+}
+h1{
+  font-size: 2em;
+}
+h2{
+  font-size: 1.5em;
+}
+p, .contact{
+  padding: 10px;
+  font-size: 1.2em;  
+}
+i{
+  padding: 2%;
+}
+.about{
+  text-align: justify;
+}
+
+.head, .content {  
+  margin-top:10px;
+}
+
+.head, .links {
+  text-align: center;
+}
+.head, .content {
+  width: 90%;
+  margin: 0 auto;
+}
+img {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+}
+
+ul {
+  list-style-type: none;
+}
+
+li {
+  display: inline;
+}
+
+.head, .about {
+  margin-bottom: 5%;
+}
+
+.content {
+  padding: 5% 10%;
+}
+
+img {
+  margin-top: -60px;
+  padding: 1px;
+  background-color: #666;
+  transition: all 0.5s ease-in-out;
+  filter: grayscale(50%);
+}
+
+img:hover {
+  transform: scale(1.1);
+  transition: all 0.5s ease-in-out;
+  filter: grayscale(20%);
+}
+
+.content {
+  border-top: 1px solid hsla(0, 0%, 30%, .8);
+}
